@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>CodePen - Sticky Slider Navigation (Responsive)</title>
+    <title>zCode - For Brigter Future</title>
     <link
       href="https://fonts.googleapis.com/css?family=Lato:400,700"
       rel="stylesheet"
@@ -12,6 +12,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anybody&family=Roboto+Condensed:ital@1&family=Roboto+Mono:wght@400;500&family=Sevillana&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- == icon == -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- partial:index.partial.html -->
@@ -66,15 +77,18 @@
         <div class="vision">
           <h1>Vision</h1>
           <h3>
-            To become the leading global platform that empowers engineering
-            students to maximize their potential and succeed in their careers.
+            To become the leading global platform that empowers students and
+            working professional to maximize their potential and succeed in
+            their IT careers.
           </h3>
         </div>
       </section>
+
       <section class="et-slide" id="tab-react">
         <h1>Services</h1>
         <h3>something about Services</h3>
       </section>
+
       <section class="et-slide" id="tab-angular">
         <div class="about-us">
           <h1>About Us</h1>
@@ -90,12 +104,115 @@
         <img src="images/aboutus.png" />
       </section>
       <section class="et-slide" id="tab-other">
-        <h1>Constact Us</h1>
-        <h3>contact us</h3>
+        <div class="contact-us">
+          <div class="contact-right">
+            <img src="images/contact.png" />
+          </div>
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-left"
+          >
+            <div>
+              <h2>Get in touch</h2>
+              <hr />
+            </div>
+            <input
+              type="hidden"
+              name="access_key"
+              value="9d8f4f62-0668-4ce5-b914-cd9c71a84d69"
+            />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="contact-inputs"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="contact-inputs"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder=" Your Message"
+              class="contact-inputs"
+            ></textarea>
+            <button type="submit">
+              Submit <img src="images/arrow-right.png" />
+            </button>
+          </form>
+        </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="col1">
+          <a href="#" class="brand">zCode</a>
+          <ul class="media-icons">
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-discord"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col2">
+          <ul class="menu">
+            <li><a href="#tab-es6">Mission</a></li>
+            <li><a href="#tab-flexbox">Visiom</a></li>
+            <li><a href="#tab-react">Services</a></li>
+            <li><a href="#tab-angular">About Us</a></li>
+            <li><a href="#tab-other">Contact Us</a></li>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem excepturi ipsam unde obcaecati iusto velit labore
+              consequuntur officiis aut neque?
+            </p>
+          </ul>
+        </div>
+        <div class="col3">
+          <p>Subscribe to our newslatter</p>
+          <form>
+            <div class="input-wrap">
+              <input type="email" placeholder="ex@gmail.com" /><button
+                type="submit"
+              >
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="mekk">
+          <p>zCode 2023 - All Rights Reserved</p>
+          <p>All Illustrations are borrowed from Freepik.com</p>
+        </div>
+      </div>
+    </footer>
+
     <!-- partial -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="./script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
